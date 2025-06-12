@@ -1,0 +1,71 @@
+.img img {
+    width: 100%;
+    background: fixed;
+}
+
+body {
+    position: relative;
+}
+
+.main {
+    position: absolute;
+    top: 100px;
+    left: 40%;
+    padding: 50px 30px;
+    border-radius: 10px;
+    background-color: rgba(226, 226, 226, 0.301);
+    backdrop-filter: blur(20px);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: box-shadow 0.3s ease;
+
+}
+.main:hover{
+     box-shadow: 0 0 15px #9176b6;
+}
+
+.formbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.formbox label {
+    padding-bottom: 5px;
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.formbox input {
+    height: 30px;
+    font-size: 20px;
+    padding: 2px 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.formbox input:focus {
+    border-color: none;
+    box-shadow: 0 0 15px #4db4f8;
+
+}
+
+button {
+    margin-top: 30px;
+    width: 150px;
+    background-color: #003eead0;
+    color: white;
+    margin-left: 70px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 0px #6200ea;
+    transition: box-shadow 0.3s ease;
+}
+
+button:hover {
+    box-shadow: 0 0 15px #6200ea;
+}
